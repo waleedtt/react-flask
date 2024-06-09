@@ -1,0 +1,9 @@
+FROM node:20.14.0-buster-slim
+
+WORKDIR /home/app
+RUN apt-get update && apt-get install git -y
+RUN npm install -g create-react-app
+# create-react-app ./
+
+# CMD sleep 999999
+CMD /bin/bash -c "while true; do npm start; sleep 1; done"

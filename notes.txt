@@ -1,0 +1,11 @@
+python app.py
+npm start
+
+
+curl localhost:3025
+curl localhost:8025
+
+
+npm i -D react-router-dom 
+
+sudo chown waleed:waleed db -R
