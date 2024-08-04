@@ -35,3 +35,4 @@ services:
             MYSQL_DATABASE: app
         volumes:
             - ./db:/var/lib/mysql
+
